@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 1 30%;
+  padding: 1.5rem;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 70%;
+  color: #fff;
+  background: url(../assets/background.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.form-title {
+  margin-bottom: 2rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formulario label,
+.formulario select,
+.formulario input,
+.formulario button {
+  margin-bottom: 0.5rem;
+}
+
+#resultado {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
